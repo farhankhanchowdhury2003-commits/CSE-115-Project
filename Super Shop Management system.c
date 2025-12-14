@@ -33,7 +33,7 @@ int itemCount = 0;      // Number of items
 char username[20] = "SOLOMAN";
 char password[20] = "3492";
 
-// ===================== SUPERMAN DRAWING =====================
+// ===================== BATMAN DRAWING =====================
 
 void drawEars() {
     printf("          _==/          i     i          \\==_\n");
@@ -292,3 +292,4 @@ void saveItems()
 int arrayBoundCheck(int currentSize, int maxSize) {
     return currentSize < maxSize;
 }
+
