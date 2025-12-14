@@ -137,7 +137,7 @@ A **menu-driven C program** for managing a small shop’s inventory. The system 
 
 ## 👤 Author
 
-* **Name:** Nik Klus
+* **Name:** Farhan Khan Chowdhury
 * **Project Type:** Academic / Learning Project
 * **Language:** C Programming
 
