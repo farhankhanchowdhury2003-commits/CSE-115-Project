@@ -119,21 +119,9 @@ A **menu-driven C program** for managing a small shop’s inventory. The system 
 
 ## 🖼️ Screenshots
 
-> Add screenshots of your program running here.
-
-```
-📸 Example:
-/screenshots/login.png
-/screenshots/menu.png
-/screenshots/display-items.png
-```
-
-You can embed screenshots like this:
-
-```md
-![Login Screen](screenshots/login.png)
-![Menu Screen](screenshots/menu.png)
-```
+https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112047.png
+https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112116.png
+https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112215.png
 
 ---
 
