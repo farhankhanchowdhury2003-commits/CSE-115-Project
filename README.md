@@ -1,98 +1,164 @@
-🏪 Super Shop Inventory Management System
+# 🦇 Super Shop Inventory Management System (C)
 
-A simple C-based inventory management system that allows users to add, update, delete, search, and display shop items.
-The program includes user authentication, file saving/loading, and a fun ASCII Batman drawing shown on startup.
+A **menu-driven C program** for managing a small shop’s inventory. The system supports **user authentication**, **file handling**, and full **CRUD operations** (Create, Read, Update, Delete) on shop items. It also includes a fun **ASCII Batman-style banner** displayed at startup.
 
-📌 Features
-🔐 User Login
+---
 
-Requires correct username & password (SOLOMAN / 3492)
+## 📌 Features
 
-Allows 3 attempts before exiting
+* 🔐 **User Login System** (username & password validation)
+* ➕ Add new items to inventory
+* 📋 Display all items in a formatted table
+* 🔍 Search items by name
+* ✏️ Update item quantity and price
+* ❌ Delete items from inventory
+* 💾 Persistent storage using file handling (`items.txt`)
+* 🛡️ Array boundary checking to prevent overflow
+* 🎨 ASCII art banner at program start
 
-📦 Inventory Functions
+---
 
-Add Item – name, quantity, price
+## 🛠️ Technologies Used
 
-Display All Items – formatted table
+* **Language:** C
+* **Concepts Applied:**
 
-Search Item – find by name
+  * Structures
+  * Functions
+  * File Handling (`fopen`, `fprintf`, `fscanf`)
+  * Arrays
+  * String handling (`strcmp`)
+  * Loops & Conditional statements
 
-Update Item – change quantity & price
+---
 
-Delete Item – remove from inventory
+## 📂 Project Structure
 
-Auto-Save – items store in items.txt
+```
+├── main.c        // Main source code
+├── items.txt    // Inventory data file (auto-generated)
+├── README.md    // Project documentation
+```
 
-💾 File Handling
+---
 
-Inventory data persists between program runs using a text file.
+## 🚀 How to Run the Program
 
-🎨 ASCII Art
+1. **Clone the repository**
 
-Draws a Batman-style ASCII character when the program starts.
+   ```bash
+   git clone https://github.com/your-username/super-shop-inventory.git
+   ```
 
-🛠️ How to Compile and Run
-Compile
-gcc inventory.c -o inventory
+2. **Compile the program**
 
-Run
-./inventory
+   ```bash
+   gcc main.c -o shop
+   ```
 
-📁 File Structure
-/project-folder
-│── inventory.c       # Main program
-│── items.txt         # Auto-generated inventory storage
-│── README.md         # You are here
+3. **Run the executable**
 
-📄 Sample items.txt Format
+   ```bash
+   ./shop
+   ```
 
-The program automatically writes/reads in this structure:
+---
 
-3
-Shampoo
-10
-120.50
-Bread
-20
-35.00
-Milk
-12
-70.00
+## 🔑 Default Login Credentials
 
-🧠 How It Works
-⭐ Data Structure Used
-struct Item {
-    char name[50];
-    int quantity;
-    float price;
-};
+| Field    | Value   |
+| -------- | ------- |
+| Username | SOLOMAN |
+| Password | 3492    |
 
-⭐ Maximum Items: 100
-⭐ Storage
+> ⚠️ Credentials are hardcoded for learning/demo purposes.
 
-Items are stored in:
+---
 
-struct Item items[100];
+## 📖 Program Menu
 
-🧪 Example Run
-Enter username: SOLOMAN
-Enter password: 3492
-Login successful!
-
-Super Shop Inventory Management System
+```
 1. Add Item
 2. Display Items
 3. Search Item
 4. Update Item
 5. Delete Item
 6. Exit
-Choose an option:
+```
 
-🤝 Contributions
+---
 
-Feel free to fork this repo and improve the project. Pull requests are welcome!
+## 💾 File Handling Details
 
-📜 License
+* Inventory is stored in **items.txt**
+* Data is automatically:
 
-This project is open-source and free to use.
+  * Loaded at program start
+  * Saved after add, update, delete, and exit
+
+**File format:**
+
+```
+<number_of_items>
+<item_name>
+<quantity>
+<price>
+```
+
+---
+
+## 🧠 Key Learning Outcomes
+
+* Designing modular programs using functions
+* Using structures to model real-world entities
+* Implementing file persistence in C
+* Handling user input safely
+* Implementing simple authentication logic
+
+---
+
+## 🖼️ Screenshots
+
+> Add screenshots of your program running here.
+
+```
+📸 Example:
+/screenshots/login.png
+/screenshots/menu.png
+/screenshots/display-items.png
+```
+
+You can embed screenshots like this:
+
+```md
+![Login Screen](screenshots/login.png)
+![Menu Screen](screenshots/menu.png)
+```
+
+---
+
+## 📌 Future Improvements
+
+* Password masking
+* Case-insensitive item search
+* Dynamic memory allocation
+* Sorting items by price or quantity
+* Admin/User role separation
+
+---
+
+## 👤 Author
+
+* **Name:** Nik Klus
+* **Project Type:** Academic / Learning Project
+* **Language:** C Programming
+
+---
+
+## 📜 License
+
+This project is for **educational purposes only**. You are free to modify and use it for learning.
+
+---
+
+⭐ *If you find this project helpful, consider giving it a star on GitHub!*
