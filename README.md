@@ -119,9 +119,9 @@ A **menu-driven C program** for managing a small shop’s inventory. The system 
 
 ## 🖼️ Screenshots
 
-https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112047.png
-https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112116.png
-https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112215.png
+![image alt](https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112047.png)
+![image alt](https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112116.png)
+![image alt](https://github.com/farhankhanchowdhury2003-commits/CSE-115-Project/blob/24f679db21fabe5f645ebc6fb4bbffa7fbc982bc/Screenshot%202025-12-12%20112215.png)
 
 ---
 
